@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		852573742767805C00D0B517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852573732767805C00D0B517 /* AppDelegate.swift */; };
 		852573762767805C00D0B517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852573752767805C00D0B517 /* SceneDelegate.swift */; };
-		852573782767805C00D0B517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852573772767805C00D0B517 /* ViewController.swift */; };
+		852573782767805C00D0B517 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852573772767805C00D0B517 /* BucketListViewController.swift */; };
 		8525737B2767805C00D0B517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852573792767805C00D0B517 /* Main.storyboard */; };
 		8525737E2767805C00D0B517 /* CoreDataBucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8525737C2767805C00D0B517 /* CoreDataBucketList.xcdatamodeld */; };
 		852573802767805E00D0B517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8525737F2767805E00D0B517 /* Assets.xcassets */; };
 		852573832767805E00D0B517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852573812767805E00D0B517 /* LaunchScreen.storyboard */; };
+		8525738B2767811600D0B517 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525738A2767811600D0B517 /* AddItemTableViewController.swift */; };
+		8525738D2767831A00D0B517 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525738C2767831A00D0B517 /* AddItemTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		852573702767805C00D0B517 /* CoreDataBucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		852573732767805C00D0B517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		852573752767805C00D0B517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		852573772767805C00D0B517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		852573772767805C00D0B517 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		8525737A2767805C00D0B517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8525737D2767805C00D0B517 /* CoreDataBucketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBucketList.xcdatamodel; sourceTree = "<group>"; };
 		8525737F2767805E00D0B517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852573822767805E00D0B517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852573842767805E00D0B517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8525738A2767811600D0B517 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		8525738C2767831A00D0B517 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				852573732767805C00D0B517 /* AppDelegate.swift */,
 				852573752767805C00D0B517 /* SceneDelegate.swift */,
-				852573772767805C00D0B517 /* ViewController.swift */,
+				852573772767805C00D0B517 /* BucketListViewController.swift */,
 				852573792767805C00D0B517 /* Main.storyboard */,
 				8525737F2767805E00D0B517 /* Assets.xcassets */,
 				852573812767805E00D0B517 /* LaunchScreen.storyboard */,
 				852573842767805E00D0B517 /* Info.plist */,
 				8525737C2767805C00D0B517 /* CoreDataBucketList.xcdatamodeld */,
+				8525738A2767811600D0B517 /* AddItemTableViewController.swift */,
+				8525738C2767831A00D0B517 /* AddItemTableViewControllerDelegate.swift */,
 			);
 			path = CoreDataBucketList;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8525737E2767805C00D0B517 /* CoreDataBucketList.xcdatamodeld in Sources */,
-				852573782767805C00D0B517 /* ViewController.swift in Sources */,
+				8525738B2767811600D0B517 /* AddItemTableViewController.swift in Sources */,
+				852573782767805C00D0B517 /* BucketListViewController.swift in Sources */,
 				852573742767805C00D0B517 /* AppDelegate.swift in Sources */,
 				852573762767805C00D0B517 /* SceneDelegate.swift in Sources */,
+				8525738D2767831A00D0B517 /* AddItemTableViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
